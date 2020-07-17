@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".GameActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:textColor="#2F0A95"
+            android:textColorHighlight="#D1D10E"
+            android:textSize="60sp"
+            android:textStyle="normal|bold"
+            android:background="@drawable/boarrd"/>
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:textColor="#2F0A95"
+            android:textColorHighlight="#D1D10E"
+            android:textSize="60sp"
+            android:textStyle="normal|bold"
+            android:background="@drawable/boarrd"/>
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:textColor="#2F0A95"
+            android:textColorHighlight="#D1D10E"
+            android:textColorHint="#DD1010"
+            android:textSize="60sp"
+            android:textStyle="normal|bold"
+            android:background="@drawable/boarrd" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:textColor="#2F0A95"
+            android:textColorHighlight="#D1D10E"
+            android:textColorHint="#DD1010"
+            android:background="@drawable/boarrd"
+            android:textSize="60sp"
+            android:textStyle="normal|bold"/>
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:textColor="#2F0A95"
+            android:textColorHighlight="#D1D10E"
+            android:background="@drawable/boarrd"
+            android:textColorHint="#DD1010"
+            android:textSize="60sp"
+            android:textStyle="normal|bold"/>
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:background="@drawable/boarrd"
+            android:textColor="#2F0A95"
+            android:textColorHighlight="#D1D10E"
+            android:textColorHint="#DD1010"
+            android:textSize="60sp"
+            android:textStyle="normal|bold"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <!--        >-->
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:background="@drawable/boarrd"
+            android:textColor="#2F0A95"
+            android:textColorHighlight="#D1D10E"
+            android:textColorHint="#DD1010"
+            android:textSize="60sp"
+            android:textStyle="normal|bold" />
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:textColor="#2F0A95"
+            android:textColorHighlight="#D1D10E"
+            android:textColorHint="#DD1010"
+            android:textSize="60sp"
+            android:background="@drawable/boarrd"
+            android:textStyle="normal|bold"/>
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:textColor="#2F0A95"
+            android:background="@drawable/boarrd"
+            android:textColorHighlight="#D1D10E"
+            android:textColorHint="#DD1010"
+            android:textSize="60sp"
+            android:textStyle="normal|bold"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <Button
+            android:id="@+id/newgame"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_weight="1"
+            android:text="New Game" />
+
+        <Button
+            android:id="@+id/SaveGames"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Play Songs" />
+
+        <Button
+            android:id="@+id/Levels"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Stop Music" />
+    </LinearLayout>
+
+</LinearLayout>

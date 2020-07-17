@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/calButton"
+        android:layout_width="685dp"
+        android:layout_height="93dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="-6dp"
+        android:layout_marginLeft="-6dp"
+        android:layout_marginTop="213dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:background="@color/colorAccent"
+        android:capitalize="words"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="Calculator"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/gameButton"
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-27dp"
+        android:layout_marginRight="-27dp"
+        android:layout_marginBottom="239dp"
+        android:background="@color/colorPrimary"
+        android:text="GAME"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorLink="@color/colorPrimary"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
